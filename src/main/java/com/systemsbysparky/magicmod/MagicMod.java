@@ -1,5 +1,6 @@
 package com.systemsbysparky.magicmod;
 
+import com.systemsbysparky.magicmod.init.ModCapabilities;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -26,6 +27,7 @@ public class MagicMod {
 	public void preInit(FMLPreInitializationEvent event) {
 		LOGGER.info("Sparky's Magic Mod is Now in preInit!");
 		proxy.preInit(event);
+		ModCapabilities.registerCapabilities();
 		
 	}
 	
