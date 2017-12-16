@@ -1,0 +1,4 @@
+tile.smm:blockrubyore.name=Ruby Ore
+tile.smm:blockrubyblock.name=Ruby Block
+item.smm:itemruby.name=Ruby
+itemGroup.smm=Sparky's Magic Mod
